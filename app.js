@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
     res.render('index', {
         title: 'My Website',
         message: 'Hello from EJS',
+        people: ['John', 'Jane', 'Jack'],
     });
 });
 
